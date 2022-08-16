@@ -1,4 +1,4 @@
-import {StyleSheet, View, Pressable} from 'react-native';
+import { StyleSheet, View, Pressable } from 'react-native';
 import React from 'react';
 
 export const Col = ({
@@ -21,14 +21,14 @@ export const Col = ({
     <Component
       style={[
         styles.row,
-        flexStart && {alignItems: 'flex-start'},
-        flexEnd && {alignItems: 'flex-end'},
-        alignCenter && {alignItems: 'center'},
-        justifyCenter && {justifyContent: 'center'},
-        justifyEnd && {justifyContent: 'flex-end'},
-        spaceBetween && {justifyContent: 'space-between'},
-        noFlex && {flex: 0},
-        width && {width},
+        flexStart && { alignItems: 'flex-start' },
+        flexEnd && { alignItems: 'flex-end' },
+        alignCenter && { alignItems: 'center' },
+        justifyCenter && { justifyContent: 'center' },
+        justifyEnd && { justifyContent: 'flex-end' },
+        spaceBetween && { justifyContent: 'space-between' },
+        noFlex && { flex: 0 },
+        width && { width },
         style,
       ]}
       pointerEvents={pointerEvents}
