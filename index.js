@@ -1,3 +1,4 @@
 import Col from './src/Col';
+import Separator from './src/Separator';
 
-export { Col };
+export { Col, Separator };
