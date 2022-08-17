@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import { PRIMARY } from '/utils/theme';
-import { Normalize } from '/utils';
+import { PRIMARY } from 'utils/theme';
+import { Normalize } from 'utils';
 
 export const Separator = ({ style, color = PRIMARY, size, width }) => {
   return (
